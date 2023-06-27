@@ -14,7 +14,11 @@ function div(x, y){
     console.log(x/y)
 };
 
-suma();
-resta();
-producto();
-div();
+function cuadrado(x,y){
+    console.log(Math.pow(x, 2), Math.pow(y, 2));
+}
+suma(12, 2);
+resta(12, 2);
+producto(12, 2);
+div(12, 2);
+cuadrado(2,3);
